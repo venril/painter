@@ -28,8 +28,7 @@ class Circle extends Shape implements AreaHandler {
     {
         $rgba = $this->getFillColor();
         $color = imagecolorallocate($img, $rgba[0], $rgba[1], $rgba[2]);
-        //imagefilledellipse($img, 22, 44, 55, 66, $color);
-       // imagefilledellipse($img, $this->getX(), $this->getY(), $this->getWidth(), $this->getHeigth(), $color);
+        
     }
 
     //put your code here
